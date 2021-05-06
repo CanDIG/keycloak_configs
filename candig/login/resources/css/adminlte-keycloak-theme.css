@@ -1,0 +1,152 @@
+
+body {
+    background: transparent url("../img/dna_bg.png") top left no-repeat;
+    background-size: cover;
+    color: black;
+}
+
+.title {
+    margin-bottom: 15px;
+    display: none;
+}
+
+#kc-header, #kc-content {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#kc-header-wrapper {
+    display: none;
+}
+
+#kc-header {
+   color: #fff;
+   overflow: visible;
+   padding-left: 80px;
+   margin-top: 10%;
+   white-space: nowrap;
+   background-image: url("../img/logo.png");
+   background-size: auto 100px;
+   background-repeat: no-repeat;
+   height: 100px;
+   width: 350px;
+}
+
+#kc-content {
+    background: white;
+    padding: 20px;
+    border-radius: 3px;
+    border-top: 3px solid #295FCB;
+    box-shadow: 0 5px 6px -3px rgba(0,0,0,.2), 0 9px 12px 1px rgba(0,0,0,.14), 0 3px 16px 2px rgba(0,0,0,.12);
+}
+
+@media (max-width: 768px) {
+    #kc-content {
+        width: 90%;
+    }
+}
+
+@media (min-width: 769px) {
+    #kc-content {
+        width: 360px;
+    }
+}
+
+.password-container {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+#kc-login {
+    float: right;
+}
+
+#kc-error-message p {
+    margin: 0;
+}
+
+.checkbox {
+    margin-bottom: 0px;
+}
+
+.remember-me-checkbox label {
+    padding-left: 0px;        
+}
+
+.register .register-field {
+    margin-bottom: 15px;
+}
+
+.register .register-button-container {
+    margin-top: 20px;
+}
+
+.reset-password .reset-password-field {
+    margin-bottom: 15px;
+}
+
+.update-password .update-password-field {
+    margin-bottom: 15px;
+}
+
+.update-password .update-password-button-container {
+    margin-top: 20px;
+}
+
+.config-totp .config-totp-button-container {
+    margin-top: 15px;
+}
+
+.totp .totp-button-container {
+    margin-top: 15px;
+}
+
+.update-profile .update-profile-field {
+    margin-top: 15px;
+}
+
+.update-profile .update-profile-button-container {
+    margin-top: 20px;
+}
+
+.template .language-picker {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 160px;
+}
+
+.template .language-picker .form-group {
+    white-space: nowrap;
+
+    /* the below keeps the label in "inline" mode even on narrow screens */
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+
+.template .language-picker .language-picker-dropdown-label i {
+    vertical-align: middle;
+    margin-right: 7px;
+    margin-left: -7px;
+    color: #9ca2af;
+}
+
+.template .language-picker select.form-control {
+    border-color: #afb0b3;
+    background: transparent;
+
+    /* the below keeps the <select> in "inline" mode even on narrow screens */
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+}
+
+.btn-primary, .btn-primary:active {
+    background-color: #295FCB;
+}
+
+.btn-primary:hover, .btn-primary.hover {
+    background-color: #221f76;
+}
